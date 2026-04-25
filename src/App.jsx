@@ -5,6 +5,8 @@ import Home from './Home'
 import History from './History'
 import Jsx from './Jsx'
 import Components from './Components'
+import Footer from './Footer'
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
         <Route path='/jsx' element={<Jsx />} />
         <Route path='/components' element={<Components />} />
       </Routes>
+      <Footer />
     </>
   )
 }
